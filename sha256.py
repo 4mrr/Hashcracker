@@ -7,7 +7,7 @@ import os.path
 from os import path
 
 
-intro = pyfiglet.figlet_format("MD5\nHash--Cracker\n")
+intro = pyfiglet.figlet_format("SHA256\nHash--Cracker\n")
 print(Fore.RED+intro)
 
 now =datetime.now()
