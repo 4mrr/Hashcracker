@@ -25,3 +25,16 @@ wget https://raw.githubusercontent.com/amr-en-niari/Hashcracker/main/wordlist-2.
 wget https://raw.githubusercontent.com/amr-en-niari/Hashcracker/main/wordlist-1.txt
 ```
 :boom: and then go a head :boom:  
+
+# :fire: Some example :fire: 
+
+* md5 algorithm :
+
+![Screenshot (807)](https://user-images.githubusercontent.com/65505262/132901011-eaba0d27-2c06-4053-8402-a8ad9359948c.png)
+![Screenshot (808)](https://user-images.githubusercontent.com/65505262/132901063-7b84855a-8dea-45be-a555-189b8a72eff4.png)
+
+* sha256 algorithm :
+ 
+![Screenshot (809)](https://user-images.githubusercontent.com/65505262/132901149-93776fd7-dac7-4d3d-9593-3bd84dbb5e06.png)
+![Screenshot (810)](https://user-images.githubusercontent.com/65505262/132901208-3ae6f328-75b5-4e62-ba42-e3273d4930cf.png)
+
