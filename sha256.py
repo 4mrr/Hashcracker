@@ -33,12 +33,12 @@ if(path.exists(wordlist) == True) :
  passwds = passwd_list.splitlines()
  for line in passwds:
    try:
-      print(Fore.YELLOW+"[!] CHECK PASSWORD [MD5] : "+ line.strip())
+      print(Fore.YELLOW+"[!] CHECK PASSWORD [SHA256] : "+ line.strip())
       hash_ob = hashlib.md5(line.strip().encode())
       hashed_pass = hash_ob.hexdigest()
       #print(Fore.YELLOW+"[!] CHECK PASSWORD [MD5] : "+ line.strip())
       if hashed_pass == hash:
-        print(Fore.GREEN+"[+] PASSWORD FOUND : " + line.strip())
+        print(Fore.GREEN+"[+] PASSWORD FOUND [SHA256] : " + line.strip())
         break
    except Exception as e :
       print(e)
